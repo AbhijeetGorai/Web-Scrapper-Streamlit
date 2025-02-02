@@ -7,7 +7,7 @@ def fetch_information(urls):
     Function to call an external API with given URLs.
     Modify `API_ENDPOINT` with your actual API URL.
     """
-    API_ENDPOINT = "https://your-api-endpoint.com/fetch"  # Replace with your actual API URL
+    API_ENDPOINT = "https://web-scrapper-client-code.onrender.com/generate-report/"  # Replace with your actual API URL
     
     try:
         response = requests.post(API_ENDPOINT, json={"urls": urls})
